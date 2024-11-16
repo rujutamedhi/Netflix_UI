@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+.main{
+    background-image: url("../assets/images/bg.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins','sans-serif';
+}
+
+  body{
+    background-color: black;
+  }
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+    
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    height:calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position:relative ;
+    gap: 20px;
+    padding: 0 30px;
+
+}
+.hero> :first-child{
+    font-weight: 1500;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    background: rgb(78, 78, 78);
+    height: 5px;
+    z-index: 15;
+  position: relative;
+}
+
+.separation1{
+    background: black;
+    height: 8px;
+    z-index: 15;
+  position: relative;
+}
+.btn{
+    padding:3px 8px ;
+    font-weight: 400px;
+    background-color:white ;
+    color: white;
+    background-color: rgba(248,243,243,0.021);
+    border:1px solid white ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.red-btn{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-color: rgb(15, 15, 15);
+    border-radius: 4px;
+    font-weight: 400px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+gap: 16px;
+justify-content: center;}
+.red-sm{
+    background-color: red;
+    color: white;
+    width: 90px;
+  height: 40px;
+  font-size: 17px;
+
+}
+.red-sm:hover{
+    background-color: rgb(165, 0, 0,0.8);
+}
+.main input{
+    padding: 7px 101px 9px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 900px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(246,238,238,0.5);
+}
+.first{
+    display: flex;
+    
+
+}
+.first .write .head{
+    color: white;
+    padding: 200px 50px 5px 100px;
+    font-size: 50px;
+}
+.first .write .subtitle{
+    color: white;
+    padding: 10px 50px 5px 100px;
+    font-size: 30px;
+}
+.image{
+    height: 600px;
+    z-index: 10;
+}
+#v1{
+    position: relative;
+    top: -383px;
+    right: -85px;
+    height: 260px;
+  
+}
+.faqbox{
+    display: flex;
+    background-color: rgba(44, 44, 44, 0.7);
+    color: white;
+    padding: 0 50px;
+    justify-content: space-between;
+    height: 40px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+}
+.faqbox svg{
+    color: white;
+    filter: invert(1);
+    height: 18px;
+}
+.faqbox:hover{
+    background-color: rgb(66, 66, 66);
+}
+.faq h2{
+    text-align: center;
+    padding: 8px;
+}
+.faq{
+    padding: 0 200px;
+}
+.forms{
+    background-color: rgb(32, 32, 32,0.7);
+    color: white;
+    border-radius: 4px;
+    height: 73vh;
+  width: 44vw;
+  z-index: 10;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  left: 331px;
+    
+}
+.main1{
+    background-image: url("../assets/images/bg.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+}
+.main1 .up{
+    height: 103vh;
+    width: 100%;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.btnform:hover{
+    background-color: red;
+}
+.tfield{
+    background-color: rgb(30, 30, 30,0.7);
+    border: 2px solid rgb(72, 72, 72);
+    color: white;
+}
+.tfield:hover{
+    background-color: rgb(63, 63, 63,0.4);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+}
+.faq1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    
+    
+}
+.footer-items a{
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+    padding: 5px 0px;
+    text-decoration: none;
+}
+.footer-items a:hover{
+    color: white;
+}
+.contact span{
+    
+    font-size: 20px;
+}
+.contact{
+    margin: 9px 0px;
+}
